@@ -26,6 +26,7 @@ rake db:migrate
 ```no-highlight
 rake secret
 ```
+and update ```secret_key_base``` in ```config/initializers/secret_token.rb```
 
 ## Based on
 
