@@ -11,10 +11,28 @@ https://devcenter.heroku.com/articles/getting-started-with-rails4
 * Change AppName to your name
 * Update config/database.yml
 * Install dependencies
-> bundle install
+```no-highlight
+bundle install
+```
 * Create databases: 
-> rake db:create:all
+```no-highlight
+rake db:create:all
+```
 * Migrate databases: 
-> rake db:migrate
+```no-highlight
+rake db:migrate
+```
 * Update secure secret hash
-> rake secret
+```no-highlight
+rake secret
+```
+
+== Based on
+
+Clearance - Rails authentication with email & password.
+
+https://github.com/thoughtbot/clearance
+
+Foundation for Rails
+
+https://github.com/zurb/foundation-rails
